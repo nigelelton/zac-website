@@ -24,16 +24,16 @@
 		</nav>
 	</section>
 
-	<header id="main-nav">
-		<h3>Zac Marshall</h3>
-		<nav>
-			<ul class="nav nav-pills">
-				<li><a href="#">Work</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Connect</a></li>
-			</ul>
-		</nav>
-	</header>
+	<nav id="main-nav" class="sticky-bar">
+		<div class="nav-control">
+			<h3>Zac Marshall <span class="nav-toggle">X</span></h3>
+		</div>
+		<ul class="hidden">
+			<li><a href="#">Work</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Connect</a></li>
+		</ul>
+	</nav>
 
 	<section id="work">
 		<div class="row">
@@ -137,6 +137,12 @@
 	<section>
 		
 	</section>
-
+	<script>
+	$(document).ready(function() {
+		$('.nav-toggle').click(function() {
+			$('#main-nav ul').toggleClass("hidden");
+		});
+	});
+	</script>
 </body>
 </html>

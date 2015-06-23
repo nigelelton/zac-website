@@ -1,3 +1,6 @@
+* {
+	position: relative;
+}
 section {
 	text-align: center;
 }
@@ -29,6 +32,43 @@ section {
 #main-nav {
 	background: linear-gradient(to right, rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.75) 100%);
 	color: white;
+	border:0;
+}
+#main-nav .nav-control h3 {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+#main-nav .nav-control h3 span {
+	display: block;
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+
+#main-nav ul {
+	text-align: center;
+	font-size: 1.3em;	
+}
+
+#main-nav ul li {}
+#main-nav ul li a,
+#main-nav ul li a:hover,
+#main-nav ul li a:active {
+	color: white;
+	display: block;
+	line-height: 2em;
+}
+
+.sticky-bar {
+	position: fixed;
+	top:0;
+	z-index: 100;
+	width: 100%;
 }
 figure {
 	background: black;
