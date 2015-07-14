@@ -91,6 +91,12 @@ figure img {
 
 figure img:hover {
 	opacity: 0.25;
+	transition: all 0.5s ease-in-out;
+}
+
+figcaption img:hover {
+	opacity: 0.25;
+	transition: all 0.5s ease;
 }
 
 figure figcaption {}
