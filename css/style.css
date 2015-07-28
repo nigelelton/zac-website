@@ -7,6 +7,9 @@ p, h1, h2, h3, h4, h5, h6, li, figure {
 section {
 	text-align: center;
 }
+h3 {
+	margin-bottom: 1.5em;
+}
 #home {
 	color: white;
 	background-image: url('../images/sprouts-web.jpg');
@@ -105,14 +108,18 @@ figure figcaption {}
 	padding: 0 !important;
 	margin: 0 !important;
 }
-#about {}
+#about p {
+	margin: auto 4em;
+}
 #about img {
 	width:18em;
 	margin: 4em auto 2em auto;
 }
 
+#clients {
+	margin-top: 10em
+}
 
-#clients{}
 #clients ul {
 	list-style: none;
 }
@@ -120,8 +127,4 @@ figure figcaption {}
 	display: inline-block;
 	width: 10em;
 }
-
-
-
-
 
