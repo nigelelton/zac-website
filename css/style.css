@@ -1,6 +1,9 @@
 * {
 	position: relative;
 }
+p, h1, h2, h3, h4, h5, h6, li, figure {
+	font-family: 'Open Sans';
+}
 section {
 	text-align: center;
 }
@@ -107,3 +110,18 @@ figure figcaption {}
 	width:18em;
 	margin: 4em auto 2em auto;
 }
+
+
+#clients{}
+#clients ul {
+	list-style: none;
+}
+#clients li {
+	display: inline-block;
+	width: 10em;
+}
+
+
+
+
+
