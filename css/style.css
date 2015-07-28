@@ -102,3 +102,8 @@ figure figcaption {}
 	padding: 0 !important;
 	margin: 0 !important;
 }
+#about {}
+#about img {
+	width:18em;
+	margin: 4em auto 2em auto;
+}
