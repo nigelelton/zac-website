@@ -23,18 +23,19 @@
 		</nav>
 	</section>
 
-	<nav id="main-nav">
-		<div class="nav-control">
-			<h3>Zac Marshall <span class="nav-toggle">X</span></h3>
-		</div>
-		<ul class="hidden">
-			<li><a href="#">Work</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Connect</a></li>
-		</ul>
-	</nav>
+	
 
 	<section id="work">
+		<div id="main-nav">
+			<div class="nav-control">
+				<h3>Zac Marshall <span class="nav-toggle">X</span></h3>
+			</div>
+			<ul class="hidden">
+				<li><a href="#">Work</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Connect</a></li>
+			</ul>
+		</div>
 		<div class="row">
 
 			<div class="col-sm-6 nospace">
@@ -185,10 +186,10 @@
 		$(window).scroll(function() {
 			if( $(this).scrollTop() > top_height ) {
 				nav.addClass(css_class);
-				$('#home').css('margin-bottom', $("#main-nav").height());
+				// $('#home').css('margin-bottom', $("#main-nav").height());
 			} else {
 				nav.removeClass(css_class);
-				$('#home').css('margin-bottom', 0);
+				// $('#home').css('margin-bottom', 0);
 			}
 		});
 	});
