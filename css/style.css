@@ -161,11 +161,19 @@ figure figcaption {}
 }
 #about img {
 	width:18em;
-	margin: 4em auto 2em auto;
+	margin: 0 auto 2em auto;
+}
+
+.emphasis {
+	font-weight: 500;
+	font-size: 1.4em;
+	color: #666;
+	padding-top: 1.3em;
+	margin: auto 4em;
 }
 
 .spacer {
-	height: 7em;
+	height: 10em;
 }
 
 #clients {}
