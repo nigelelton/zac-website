@@ -225,6 +225,15 @@ figure figcaption {}
 	#connect .contact-info a {
 		line-height: 4em;
 	}
+
+	#connect h1 { 
+		font-size: 6em;
+		padding-top: 1em;
+	}
+	#connect h2 { 
+		font-size: 2em;
+		margin-bottom: 1.3em;
+	}
 }
 
 @media (min-width: 992px) { 
