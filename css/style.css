@@ -1,11 +1,15 @@
 * {
 	position: relative;
 }
+p, h1, h2, h3, h4, h5, h6, li, figure {
+	font-family: 'Open Sans';
+}
 section {
 	text-align: center;
 }
 h3 {
 	margin-bottom: 1.5em;
+	text-transform: uppercase;
 }
 #home {
 	color: white;
@@ -137,6 +141,19 @@ figure figcaption {}
 	width:18em;
 	margin: 4em auto 2em auto;
 }
-#clients {
-	margin-top: 10em
+
+.spacer {
+	height: 7em;
 }
+
+#clients {}
+
+#clients ul {
+	list-style: none;
+}
+#clients li {
+	display: inline-block;
+	width: 10em;
+	text-transform: uppercase;
+}
+
