@@ -183,3 +183,31 @@ figure figcaption {}
 	color: #666666;
 }
 
+#connect {
+	background: #333;
+	color: white;
+}
+#connect img {
+	width: 5em;
+	margin: 1.5em;
+}
+#connect .contact-info {
+	font-size: 2em;
+}
+#connect .contact-info span {
+	line-height: 2em
+}
+
+@media (min-width: 768px) { 
+	#connect .contact-info span {
+		line-height: 4em
+	}
+}
+
+@media (min-width: 992px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+}
