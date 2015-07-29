@@ -19,7 +19,7 @@
 		</header>
 		<nav>
 			<h3>Work</h3>
-			<img src="images/chevron.svg" alt="">
+			<a href="#work" class="scroll"><img src="images/chevron.svg" alt=""></a>
 		</nav>
 	</section>
 
@@ -31,9 +31,9 @@
 				<h3>Zac Marshall <span class="nav-toggle">X</span></h3>
 			</div>
 			<ul class="hidden">
-				<li><a href="#">Work</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Connect</a></li>
+				<li><a class="scroll" href="#work">Work</a></li>
+				<li><a class="scroll" href="#about">About</a></li>
+				<li><a class="scroll" href="#connect">Connect</a></li>
 			</ul>
 		</div>
 		<div class="row">
@@ -179,19 +179,40 @@
 		$('.nav-toggle').click(function() {
 			$('#main-nav ul').toggleClass("hidden");
 		});
-		var nav       = $("#main-nav");
-		var css_class = "sticky-bar";
+
+		var nav        = $("#main-nav");
+		var css_class  = "sticky-bar";
 		var top_height = $('#home').height() + $("#main-nav").height();
 
 		$(window).scroll(function() {
 			if( $(this).scrollTop() > top_height ) {
 				nav.addClass(css_class);
-				// $('#home').css('margin-bottom', $("#main-nav").height());
 			} else {
 				nav.removeClass(css_class);
-				// $('#home').css('margin-bottom', 0);
 			}
 		});
+
+		var hashTagActive = "";
+	    $(".scroll").click(function (event) {
+	        if( hashTagActive != this.hash ) { 
+	            event.preventDefault();
+	            var dest = 0;
+
+	            if ( $(this.hash).offset().top > $(document).height() - $(window).height() ) {
+	                dest = $(document).height() - $(window).height();
+	            } else {
+	                dest = $(this.hash).offset().top;
+	            }
+
+	            $('html,body').animate(
+	            	{ scrollTop: dest }, 
+		            700, 
+		            'swing'
+		        );
+
+	            hashTagActive = this.hash;
+	        }
+	    });
 	});
 	</script>
 </body>
