@@ -93,11 +93,12 @@ h4 {
 
 #main-nav .nav-control h3 span {
 	display: block;
-	width: 1em;
-	height: 1em;
+	width: 1.5em;
+	height: 1.5em;
 	position: absolute;
-	right: 5px;
+	right: 15px;
 	top: 0;
+	cursor: pointer;
 }
 
 #main-nav ul {
