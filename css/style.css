@@ -186,21 +186,44 @@ figure figcaption {}
 #connect {
 	background: #333;
 	color: white;
+	padding-bottom: 6em;
+}
+#connect h1 {
+	font-family: 'Slabo 27px';
+	font-size: 4em;
+	padding-top: 2em;
+	margin-bottom: 0.2em;
+}
+#connect h2 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding:0;
+	margin:0;
+	margin-bottom: 4em;
 }
 #connect img {
 	width: 5em;
 	margin: 1.5em;
 }
 #connect .contact-info {
-	font-size: 2em;
+	font-size: 1.5em;
 }
-#connect .contact-info span {
-	line-height: 2em
+#connect .contact-info a {
+	line-height: 2em;
+	text-transform: uppercase;
+	color: white;
+}
+#connect .contact-info a:active {
+	color: white;
 }
 
 @media (min-width: 768px) { 
-	#connect .contact-info span {
-		line-height: 4em
+	#connect .contact-info {
+		font-size: 2em;
+		text-align: left;
+	}
+	#connect .contact-info a {
+		line-height: 4em;
 	}
 }
 
