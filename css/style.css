@@ -9,6 +9,7 @@ section {
 }
 h3 {
 	margin-bottom: 1.5em;
+	text-transform: uppercase;
 }
 #home {
 	color: white;
@@ -116,9 +117,11 @@ figure figcaption {}
 	margin: 4em auto 2em auto;
 }
 
-#clients {
-	margin-top: 10em
+.spacer {
+	height: 7em;
 }
+
+#clients {}
 
 #clients ul {
 	list-style: none;
@@ -126,5 +129,6 @@ figure figcaption {}
 #clients li {
 	display: inline-block;
 	width: 10em;
+	text-transform: uppercase;
 }
 
