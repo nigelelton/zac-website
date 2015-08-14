@@ -255,6 +255,9 @@ figure figcaption {}
 	width: 44em;
     height: 25em;
 }
+.featherlight .featherlight-inner{
+	background: black; 
+}
 
 @media (min-width: 695px) { 
 	#clients li {
