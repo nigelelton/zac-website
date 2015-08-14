@@ -144,9 +144,14 @@ figure img {
 	transition: all 0.5s ease-out;
 }
 
-figure:hover img {
+.video-piece:hover figure img {
 	opacity: 0.25;
 	transition: all 0.5s ease-in;
+}
+
+.video-piece:hover .play-button {
+	opacity: 1;
+	transition: opacity 0.2s ease-in;
 }
 
 figure figcaption {}
@@ -224,10 +229,31 @@ figure figcaption {}
 #connect .contact-info a:active {
 	color: white;
 }
-
+.play-button {
+	height: 9em;
+	width: 9em;
+	margin-left:auto;
+	margin-right:auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 30%;
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+}
 .video {
 	width: 100%;
 	height: 72vw;
+}
+.videos {
+	display: none;
+}
+.featherlight {
+	display: block !important;
+}
+.featherlight iframe{
+	width: 44em;
+    height: 25em;
 }
 
 @media (min-width: 768px) { 
