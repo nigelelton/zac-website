@@ -131,7 +131,7 @@ figure {
 }
 figure figcaption {
 	position: absolute;
-	top: 15%;
+	top: 30%;
 	padding: 2em;
 	width: 100%;
 	color: white;
@@ -189,7 +189,7 @@ figure figcaption {}
 #clients li {
 	font-weight: 600;
 	display: inline-block;
-	width: 15em;
+	width: 16em;
 	padding: .5em;
 	text-transform: uppercase;
 	letter-spacing: .2em;
@@ -254,6 +254,11 @@ figure figcaption {}
 .featherlight iframe{
 	width: 44em;
     height: 25em;
+}
+
+@media (min-width: 695px) { 
+	#clients li {
+		width: 18em;
 }
 
 @media (min-width: 768px) { 
