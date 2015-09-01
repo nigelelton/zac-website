@@ -3,13 +3,11 @@ To done get list:
 ***** MOBILE *****   8===D :)
 
 1. Choose appropriate image for loading as hero image
-2. decrease height of landing page on mobile. Too much seperation between Header and work button
-3. decrease sizing of "work" and push chevron
+
 4. Move video captions/explanations lower so we can see peoples faces
 5. Mobile should probably have static play button option (on larger screens it can appear on hover! ;D )
-6. Nav bar should rotate the chevron to indicate it's open or closed (static right now)
-7. Should probably make "work" and the chevron one clickable div for some surface area?
-7. You're working on footer right now so we can go over it later.
+
+8. You're working on footer right now so we can go over it later.
 
 
 
@@ -23,6 +21,25 @@ To done get list:
 
 
 ******* Large 1000px *******
-1. adjust font sizes to for larger, more impactful experience on large screens. Go big or go home.
+
 3. adjust left and right margins for line length
 2. play buttons should fit with the text on this spacing
+4. Increase all font sizes?
+
+NEEDS APPROVAL
+
+***** MOBILE *****
+2. decrease height of landing page on mobile. Too much seperation between Header and work button
+3. decrease sizing of "work" and push chevron
+7. Should probably make "work" and the chevron one clickable div for some surface area?
+6. Nav bar should rotate the chevron to indicate it's open or closed (static right now)
+
+****** Medium 775px ******
+******* Large 1000px *******
+1. adjust font sizes to for larger, more impactful experience on large screens. Go big or go home.
+
+COMPLETE
+
+***** MOBILE *****
+****** Medium 775px ******
+******* Large 1000px *******
