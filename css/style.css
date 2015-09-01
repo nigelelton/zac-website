@@ -204,7 +204,9 @@ figure figcaption {}
 	font-weight: 600;
 	display: inline-block;
 	width: 16em;
-	padding: .5em;
+	padding: 1.5em;
+	min-height: 2em;
+	vertical-align: middle;
 	text-transform: uppercase;
 	letter-spacing: .2em;
 	color: #666666;
