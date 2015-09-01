@@ -384,5 +384,6 @@ figure figcaption {}
 }
 
 @media (min-width: 1200px) { 
-
+	figure figcaption {
+	top: 40%;
 }

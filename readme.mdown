@@ -29,6 +29,12 @@ To done get list:
 NEEDS APPROVAL
 
 ***** MOBILE *****
+****** Medium 775px ******
+******* Large 1000px *******
+
+COMPLETE
+
+***** MOBILE *****
 2. decrease height of landing page on mobile. Too much seperation between Header and work button
 3. decrease sizing of "work" and push chevron
 7. Should probably make "work" and the chevron one clickable div for some surface area?
@@ -37,9 +43,3 @@ NEEDS APPROVAL
 ****** Medium 775px ******
 ******* Large 1000px *******
 1. adjust font sizes to for larger, more impactful experience on large screens. Go big or go home.
-
-COMPLETE
-
-***** MOBILE *****
-****** Medium 775px ******
-******* Large 1000px *******
