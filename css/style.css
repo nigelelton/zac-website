@@ -292,7 +292,6 @@ figure figcaption {}
 		width: 10em;
 		top: 15%;
 	}
-	
 }
 @media (min-width: 695px) { 
 	#clients li {
@@ -352,6 +351,31 @@ figure figcaption {}
 		font-size: 2em;
 		margin-bottom: 1.3em;
 	}
+	#main-nav .nav-control {
+		width: 20em;
+		float: left;
+	}
+	#main-nav ul.hidden {
+		display: block !important;
+		float: right;
+		text-align: right;
+	}
+	#main-nav .hidden li {
+		display: inline;
+		/*width: 5em;*/
+	}
+	#main-nav .hidden li a,
+	#main-nav .hidden li a:hover {
+		display: inline;
+		padding-left:2em;
+		padding-right:2em;
+	}
+	#main-nav .nav-control h3 {
+		line-height: 3.3em;
+	}
+	#main-nav .nav-control h3 .nav-toggle {
+		display: none;
+	}
 }
 
 @media (min-width: 992px) { 
@@ -381,6 +405,7 @@ figure figcaption {}
 		position: static;
 		font-size: 0.4em;
 	}
+
 }
 
 @media (min-width: 1200px) { 
